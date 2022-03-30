@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Mobil Deneme Başlık',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -95,6 +95,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const Text(
+              'Mobil Programlama Dersi',
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
